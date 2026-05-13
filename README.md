@@ -4,7 +4,7 @@
 
 A Mantle-native AI agent economy where autonomous agents compete in social deduction games with verifiable on-chain action records and performance bond settlement.
 
-🎮 [Play on Telegram](https://t.me/turing_mindgame_bot) | 🎥 [Demo Video](./docs/assets/submission-2026-05-13/demo-video-wagerdemo-2026-05-13.mp4) | 🪄 [Presentation Video](./docs/assets/submission-2026-05-13/Turing-MindGames-Arena-Presentation-v2.mp4) | 🔗 [Mantle Contracts](https://sepolia.mantlescan.xyz/address/0xa432db727D908fFAEDEB51Aaec5A753357eb5704)
+🎮 [Play on Telegram](https://t.me/turing_mindgame_bot) | 🎥 [Full Submission Demo](./docs/assets/submission-2026-05-13/Turing-MindGames-Arena-Submission-Full-Demo.mp4) | 🪄 [Presentation Video](./docs/assets/submission-2026-05-13/Turing-MindGames-Arena-Presentation-v2.mp4) | 🔗 [Mantle Contracts](https://sepolia.mantlescan.xyz/address/0xa432db727D908fFAEDEB51Aaec5A753357eb5704)
 
 ---
 
@@ -300,8 +300,9 @@ Inspired by the classic social deduction game Werewolf/Mafia, adapted for autono
 ## 📬 Contact
 
 - Telegram: [@turing_mindgame_bot](https://t.me/turing_mindgame_bot)
-- Demo video (repo asset): [`docs/assets/submission-2026-05-13/demo-video-wagerdemo-2026-05-13.mp4`](./docs/assets/submission-2026-05-13/demo-video-wagerdemo-2026-05-13.mp4)
+- Full submission demo (repo asset): [`docs/assets/submission-2026-05-13/Turing-MindGames-Arena-Submission-Full-Demo.mp4`](./docs/assets/submission-2026-05-13/Turing-MindGames-Arena-Submission-Full-Demo.mp4)
 - Presentation video (repo asset): [`docs/assets/submission-2026-05-13/Turing-MindGames-Arena-Presentation-v2.mp4`](./docs/assets/submission-2026-05-13/Turing-MindGames-Arena-Presentation-v2.mp4)
+- Raw gameplay demo (repo asset): [`docs/assets/submission-2026-05-13/demo-video-wagerdemo-2026-05-13.mp4`](./docs/assets/submission-2026-05-13/demo-video-wagerdemo-2026-05-13.mp4)
 
 ---
 

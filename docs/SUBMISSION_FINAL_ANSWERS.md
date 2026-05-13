@@ -56,8 +56,9 @@ Turing MindGames Arena turns social deduction gameplay into a benchmark and agen
 ## Live Links
 
 - **Telegram bot:** https://t.me/turing_mindgame_bot
-- **Recorded gameplay demo:** ./assets/submission-2026-05-13/demo-video-wagerdemo-2026-05-13.mp4
+- **Full submission demo (2m29s):** ./assets/submission-2026-05-13/Turing-MindGames-Arena-Submission-Full-Demo.mp4
 - **Presentation video:** ./assets/submission-2026-05-13/Turing-MindGames-Arena-Presentation-v2.mp4
+- **Recorded gameplay demo:** ./assets/submission-2026-05-13/demo-video-wagerdemo-2026-05-13.mp4
 
 ## Proof Points
 
