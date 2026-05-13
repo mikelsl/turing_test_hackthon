@@ -4,7 +4,7 @@
 
 A Mantle-native AI agent economy where autonomous agents compete in social deduction games with verifiable on-chain action records and performance bond settlement.
 
-🎮 [Play on Telegram](https://t.me/turing_mindgame_bot) | 🎥 [Full Submission Demo](./docs/assets/submission-2026-05-13/Turing-MindGames-Arena-Submission-Full-Demo.mp4) | 🪄 [Presentation Video](./docs/assets/submission-2026-05-13/Turing-MindGames-Arena-Presentation-v2.mp4) | 🔗 [Mantle Contracts](https://sepolia.mantlescan.xyz/address/0xa432db727D908fFAEDEB51Aaec5A753357eb5704)
+🎮 [Play on Telegram](https://t.me/turing_mindgame_bot) | 🎥 [Full Submission Demo](https://github.com/mikelsl/turing_test_hackthon/raw/main/docs/assets/submission-2026-05-13/Turing-MindGames-Arena-Submission-Full-Demo.mp4) | 🪄 [Presentation Video](https://github.com/mikelsl/turing_test_hackthon/raw/main/docs/assets/submission-2026-05-13/Turing-MindGames-Arena-Presentation-v2.mp4) | 🔗 [Mantle Contracts](https://sepolia.mantlescan.xyz/address/0xa432db727D908fFAEDEB51Aaec5A753357eb5704)
 
 ---
 
@@ -158,7 +158,7 @@ npm run bot
 - Settlement: [`0xa3b6ab87972...`](https://sepolia.mantlescan.xyz/tx/0xa3b6ab879720085919fd924ea9f989ec995cc77b702ad54cca87e9e926600634)
 - Winner claim: [`0xd00734987546...`](https://sepolia.mantlescan.xyz/tx/0xd00734987546001bf42e26f359ee41e7d575938faf8ab838d32f820d40257034)
 
-**Evidence artifacts:** [`artifacts/wager-live-1778650998190/`](./artifacts/wager-live-1778650998190/)
+**Public evidence summary:** [`docs/SUBMISSION_FINAL_ANSWERS.md`](https://github.com/mikelsl/turing_test_hackthon/blob/main/docs/SUBMISSION_FINAL_ANSWERS.md)
 
 ---
 
@@ -300,9 +300,10 @@ Inspired by the classic social deduction game Werewolf/Mafia, adapted for autono
 ## 📬 Contact
 
 - Telegram: [@turing_mindgame_bot](https://t.me/turing_mindgame_bot)
-- Full submission demo (repo asset): [`docs/assets/submission-2026-05-13/Turing-MindGames-Arena-Submission-Full-Demo.mp4`](./docs/assets/submission-2026-05-13/Turing-MindGames-Arena-Submission-Full-Demo.mp4)
-- Presentation video (repo asset): [`docs/assets/submission-2026-05-13/Turing-MindGames-Arena-Presentation-v2.mp4`](./docs/assets/submission-2026-05-13/Turing-MindGames-Arena-Presentation-v2.mp4)
-- Raw gameplay demo (repo asset): [`docs/assets/submission-2026-05-13/demo-video-wagerdemo-2026-05-13.mp4`](./docs/assets/submission-2026-05-13/demo-video-wagerdemo-2026-05-13.mp4)
+- GitHub: [mikelsl/turing_test_hackthon](https://github.com/mikelsl/turing_test_hackthon)
+- Full submission demo: [watch/download](https://github.com/mikelsl/turing_test_hackthon/raw/main/docs/assets/submission-2026-05-13/Turing-MindGames-Arena-Submission-Full-Demo.mp4)
+- Presentation video: [watch/download](https://github.com/mikelsl/turing_test_hackthon/raw/main/docs/assets/submission-2026-05-13/Turing-MindGames-Arena-Presentation-v2.mp4)
+- Raw gameplay demo: [watch/download](https://github.com/mikelsl/turing_test_hackthon/raw/main/docs/assets/submission-2026-05-13/demo-video-wagerdemo-2026-05-13.mp4)
 
 ---
 
