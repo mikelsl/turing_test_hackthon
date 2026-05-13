@@ -103,7 +103,7 @@ export function buildAgentMemoryManifest(input: {
     storageStandard: {
       backend: 'local JSON artifact store for MVP; Mantle records hashes/events',
       contentAddressing: 'deterministic SHA-256 JSON root',
-      uriPattern: 'file:// or HTTPS dashboard artifact path',
+      uriPattern: 'local or HTTPS dashboard artifact path',
       recommendedMode: 'local artifacts for fast demo, Mantle event hashes for public audit'
     },
     memoryModel: {
