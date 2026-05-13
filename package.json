@@ -1,0 +1,40 @@
+{
+  "name": "turing-mindgames-arena",
+  "version": "0.1.0",
+  "description": "Mantle-native stake-backed AI social reasoning benchmark with Z.ai-powered agents",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "demo": "tsx src/demo/run-local-game.ts",
+    "demo:llm": "LLM_BACKEND=${LLM_BACKEND:-zai} tsx src/demo/run-llm-game.ts",
+    "demo:openrouter-glm": "LLM_BACKEND=openrouter-glm-speech LLM_MODEL=z-ai/glm-4.5-air:free tsx src/demo/run-llm-game.ts",
+    "demo:wager:mantle": "LLM_BACKEND=${LLM_BACKEND:-openrouter-glm-speech} MANTLE_BACKEND=mantle-sepolia tsx src/demo/run-wagered-llm-game.ts",
+    "smoke:trial": "LLM_BACKEND=${LLM_BACKEND:-openrouter-glm-speech} MANTLE_BACKEND=${MANTLE_BACKEND:-mock} tsx src/demo/run-trial-smoke.ts",
+    "test:zai": "node scripts/test-zai-connection.mjs",
+    "test:openrouter-glm": "LLM_BACKEND=openrouter-glm LLM_MODEL=z-ai/glm-4.5-air:free node scripts/test-zai-connection.mjs",
+    "check": "tsc --noEmit",
+    "build": "tsc -p tsconfig.json",
+    "bot:telegram": "tsx src/bot/run-telegram-bot.ts",
+    "bot:telegram:manage": "bash scripts/public-demo-bot.sh",
+    "web:serve": "node scripts/serve-web.mjs",
+    "contracts:compile": "node scripts/compile-contracts.mjs",
+    "deploy:mantle:sepolia": "npm run contracts:compile && node scripts/deploy-mantle-sepolia.mjs",
+    "test:wager:mantle": "npm run contracts:compile && node scripts/test-wager-flow.mjs",
+    "refresh:game-index": "node scripts/refresh-game-index.mjs",
+    "scan:legacy": "node scripts/legacy-scan.mjs"
+  },
+  "dependencies": {
+    "@types/node": "^22.10.0",
+    "dotenv": "^16.4.7",
+    "ethers": "^6.13.1",
+    "qrcode": "^1.5.4",
+    "solc": "^0.8.35",
+    "telegraf": "^4.16.3",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@types/qrcode": "^1.5.6"
+  }
+}

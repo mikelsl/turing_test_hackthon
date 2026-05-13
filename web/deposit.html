@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Turing MindGames — Self-wallet Wager Deposit</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <style>
+      .deposit-shell{max-width:760px;margin:40px auto;padding:0 20px}.mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;word-break:break-all}.actions{display:flex;gap:12px;flex-wrap:wrap;margin:20px 0}.ok{color:#6ee7b7}.warn{color:#fbbf24}.err{color:#fca5a5}button{cursor:pointer}
+    </style>
+  </head>
+  <body>
+    <main class="deposit-shell">
+      <section class="card main-card">
+        <p class="eyebrow">Turing MindGames Arena</p>
+        <h1>Self-wallet performance bond</h1>
+        <p>Connect MetaMask on Mantle Sepolia and deposit your testnet MNT bond. After the tx confirms, return to Telegram — the bot is watching the chain and will continue automatically.</p>
+        <dl class="kv">
+          <dt>Game</dt><dd id="gameId" class="mono">—</dd>
+          <dt>Player</dt><dd id="playerId" class="mono">—</dd>
+          <dt>Expected wallet</dt><dd id="address" class="mono">—</dd>
+          <dt>Settlement vault</dt><dd id="vault" class="mono">—</dd>
+          <dt>Game key</dt><dd id="gameKey" class="mono">—</dd>
+          <dt>Bond</dt><dd><strong id="bond">—</strong> MNT</dd>
+        </dl>
+        <div class="actions">
+          <button id="connectBtn">1. Connect wallet</button>
+          <button id="switchBtn">2. Switch to Mantle Sepolia</button>
+          <button id="depositBtn">3. Deposit bond</button>
+        </div>
+        <p id="status" class="warn">Waiting for wallet connection…</p>
+        <p id="txLine"></p>
+        <p class="muted">Desktop/laptop users: Make sure MetaMask extension is installed in Chrome/Brave/Firefox. Mobile payment is not currently supported.</p>
+      </section>
+    </main>
+    <script type="module" src="./deposit.js"></script>
+  </body>
+</html>

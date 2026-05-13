@@ -1,0 +1,27 @@
+{
+  "network": "mantle-sepolia",
+  "chainId": 5003,
+  "rpcUrl": "https://rpc.sepolia.mantle.xyz",
+  "deployer": "0xD908243e0C2F80BaF20E5423BCcbaF687e3c3F00",
+  "generatedAt": "2026-05-12T09:05:00.000Z",
+  "partial": false,
+  "contracts": {
+    "AgentRegistry": {
+      "name": "AgentRegistry",
+      "address": "0x4aDe976Ce967917d5263754f8F733B39151FE898",
+      "txHash": "0x3a4c36a4d76fd2123a35136c62f5d3598f1a99644c00cfad982a6e48bafa68d8"
+    },
+    "AgentActionRegistry": {
+      "name": "AgentActionRegistry",
+      "address": "0xa432db727D908fFAEDEB51Aaec5A753357eb5704",
+      "txHash": "0xf2da1dad5768a95e84160bb05f807cda046a3183fab97be49a1b790afbd4af45"
+    },
+    "GameSettlementVault": {
+      "name": "GameSettlementVault",
+      "address": "0xFbadd57084612223aA4D24eA61d7EBe7d470A35E",
+      "txHash": "0x15c9e3470a20bb442585b6d39e18307bc9ba975bebd48cf4aa8c63ed7a92be03",
+      "blockNumber": 38552947
+    }
+  },
+  "updatedAt": "2026-05-13T05:35:56.632Z"
+}

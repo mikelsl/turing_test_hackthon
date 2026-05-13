@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Turing MindGames Arena — Mantle Audit Dashboard</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="hero">
+        <p class="eyebrow">Turing MindGames Arena</p>
+        <h1>Stake-backed AI social reasoning benchmark on Mantle</h1>
+        <p>
+          Z.ai-powered agents play social deduction games, emit verifiable action hashes,
+          settle performance bonds, and build persistent reputation on Mantle.
+        </p>
+        <div class="pills">
+          <span id="networkLabel">Local Dev</span>
+          <span id="storageMode">Local JSON artifacts</span>
+          <span id="gameCountPill">0 games</span>
+        </div>
+      </section>
+
+      <section class="grid">
+        <aside class="card">
+          <h2>Games</h2>
+          <div id="gameList" class="game-list"></div>
+        </aside>
+
+        <section class="card main-card">
+          <h2 id="gameId">No game loaded</h2>
+          <div class="stats">
+            <div><span>Winner</span><strong id="winner">—</strong></div>
+            <div><span>Events</span><strong id="eventCount">—</strong></div>
+            <div><span>Engine</span><strong id="engineLabel">—</strong></div>
+            <div><span>Model</span><strong id="modelProviderLabel">—</strong></div>
+            <div><span>Registry</span><strong id="registryLabel">—</strong></div>
+          </div>
+
+          <h3>Artifact roots</h3>
+          <dl class="kv">
+            <dt>Public transcript</dt><dd id="transcriptRoot">—</dd>
+            <dt>Private audit</dt><dd id="auditRoot">—</dd>
+            <dt>Summary</dt><dd id="summaryRoot">—</dd>
+            <dt>Agent memory</dt><dd id="agentMemoryRoot">—</dd>
+          </dl>
+
+          <h3>Mantle audit</h3>
+          <dl class="kv">
+            <dt>Agent registry</dt><dd id="agentRegistryAddress">—</dd>
+            <dt>Action registry</dt><dd id="actionRegistryAddress">—</dd>
+            <dt>Settlement vault</dt><dd id="settlementVaultAddress">—</dd>
+            <dt>Game key</dt><dd id="gameKey">—</dd>
+            <dt>Recorded actions</dt><dd id="recordedActionCount">—</dd>
+            <dt>Create tx</dt><dd><a id="createTx">No create tx</a></dd>
+            <dt>Finalize tx</dt><dd><a id="chainTx">No tx yet</a></dd>
+          </dl>
+
+          <h3>Verification checklist</h3>
+          <ul id="checklist"></ul>
+
+          <h3>Replay timeline</h3>
+          <ol id="timeline"></ol>
+
+          <h3>Agent memory preview</h3>
+          <div id="agentMemoryList"></div>
+        </section>
+      </section>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>

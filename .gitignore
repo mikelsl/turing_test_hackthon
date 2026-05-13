@@ -1,0 +1,39 @@
+# dependencies
+node_modules/
+
+# env / secrets
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+
+# build / runtime
+dist/
+.tmp/
+.runtime/
+.DS_Store
+
+# local artifacts generated during demos
+artifacts/
+submission-assets/
+presentation-build/
+presentation-build-v2/
+web/data/*.json
+
+# raw recording / intermediate media; publish only selected final assets intentionally
+*.mov
+*raw*.mp4
+*raw*.mp3
+*sample*.mp3
+telegram-*.mp4
+turing-mindgames-demo-v[0-7]*.mp4
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local state
+RUNSTATE.md

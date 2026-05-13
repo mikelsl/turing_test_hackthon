@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Turing MindGames — Claim Wager Reward</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <style>
+      .deposit-shell{max-width:760px;margin:40px auto;padding:0 20px}.mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;word-break:break-all}.actions{display:flex;gap:12px;flex-wrap:wrap;margin:20px 0}.ok{color:#6ee7b7}.warn{color:#fbbf24}.err{color:#fca5a5}button{cursor:pointer}
+    </style>
+  </head>
+  <body>
+    <main class="deposit-shell">
+      <section class="card main-card">
+        <p class="eyebrow">Turing MindGames Arena</p>
+        <h1>Claim self-wallet reward</h1>
+        <p>Connect the same MetaMask wallet you used for the wager and claim your Mantle Sepolia testnet reward.</p>
+        <p class="muted">Desktop/laptop users: Make sure MetaMask extension is installed in Chrome/Brave/Firefox. Mobile claim is not currently supported.</p>
+        <dl class="kv">
+          <dt>Game</dt><dd id="gameId" class="mono">—</dd>
+          <dt>Expected wallet</dt><dd id="address" class="mono">—</dd>
+          <dt>Settlement vault</dt><dd id="vault" class="mono">—</dd>
+          <dt>Game key</dt><dd id="gameKey" class="mono">—</dd>
+        </dl>
+        <div class="actions">
+          <button id="connectBtn">1. Connect wallet</button>
+          <button id="switchBtn">2. Switch to Mantle Sepolia</button>
+          <button id="claimBtn">3. Claim reward</button>
+        </div>
+        <p id="status" class="warn">Waiting for wallet connection…</p>
+        <p id="txLine"></p>
+      </section>
+    </main>
+    <script type="module" src="./claim.js"></script>
+  </body>
+</html>
